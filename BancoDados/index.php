@@ -20,6 +20,9 @@
                   <input class="form-control mb-2" type="text" name="name" placeholder="Nome completo">
                   <input class="form-control mb-2" type="email" name="email" placeholder="Endereco de Email">
                   <input class="form-control mb-2" type="text" name="password" placeholder="Numero da Matricula">
+                  <input class="form-control mb-2" type="text" name="idade" placeholder="Idade">
+                  <input class="form-control mb-2" type="text" name="cidade" placeholder="Cidade">
+                  <input class="form-control mb-2" type="text" name="estado" placeholder="Estado">
                   <button class="btn btn-primary mt-2" name="submit">Enviar</button>
               </form>
             </div>

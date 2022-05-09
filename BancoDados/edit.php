@@ -11,6 +11,9 @@
         $UserName = $row['User_Name'];
         $UserEmail = $row['User_Email'];
         $UserPassword = $row['User_Password'];
+        $UserDate = $row['User_DateofBirth'];
+        $UserCity = $row['User_City'];
+        $UserState = $row['User_State'];
     }
 
 ?>
@@ -38,6 +41,9 @@
                                 <input type="text" class="form-control mb-2" placeholder=" User Name " name="name" value="<?php echo $UserName ?>">
                                 <input type="email" class="form-control mb-2" placeholder=" User Email " name="email" value="<?php echo $UserEmail ?>">
                                 <input type="text" class="form-control mb-2" placeholder=" User Matricula " name="password" value="<?php echo $UserPassword ?>">
+                                <input type="text" class="form-control mb-2" placeholder=" User Idade " name="idade" value="<?php echo $UserDate ?>">
+                                <input type="text" class="form-control mb-2" placeholder=" User Cidade " name="cidade" value="<?php echo $UserCity ?>">
+                                <input type="text" class="form-control mb-2" placeholder=" User Estado " name="estado" value="<?php echo $UserState ?>">
                                 <button class="btn btn-primary" name="update">Update</button>
                             </form>
 

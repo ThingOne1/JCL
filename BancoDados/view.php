@@ -25,6 +25,9 @@
                    <td>User Name</td>
                    <td>User Email</td>
                    <td>User Matricula</td>
+                   <td>User Idade</td>
+                   <td>User Cidade</td>
+                   <td>User Estado</td>
                    <td>Edit</td>
                    <td>Delete</td>
                  </tr>
@@ -36,6 +39,10 @@
                       $UserName = $row ['User_Name'];
                       $UserEmail = $row ['User_Email'];
                       $UserPassword = $row ['User_Password'];
+                      $UserDate = $row ['User_DateofBirth'];
+                      $UserCity = $row['User_City'];
+                      $UserState = $row['User_State'];
+
 
                   ?>
                   <tr>
@@ -43,6 +50,9 @@
                     <td><?php echo $UserName; ?></td>
                     <td><?php echo $UserEmail; ?></td>
                     <td><?php echo $UserPassword; ?></td>
+                    <td><?php echo $UserDate; ?></td>
+                    <td><?php echo $UserCity; ?></td>
+                    <td><?php echo $UserState; ?></td>
                     <td><a href="edit.php?GetID=<?php echo $UserID ?>" > Edit</a></td>
                     <td><a href="delete.php?Del=<?php echo $UserID ?>" > Delete</td>
                   </tr>

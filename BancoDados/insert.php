@@ -10,7 +10,11 @@
         $UserName = $_POST['name'];
         $UserEmail = $_POST['email'];
         $UserPassword = $_POST['password'];
-        $query = " insert into records (User_Name, User_Email, User_Password) values('$UserName','$UserEmail','$UserPassword')";
+        $UserDate = $_POST['idade'];
+        $UserCity = $_POST['cidade'];
+        $UserState = $_POST['estado'];
+
+        $query = " insert into records (User_Name, User_Email, User_Password, User_DateofBirth, User_City, User_State) values('$UserName','$UserEmail','$UserPassword','$UserDate','$UserCity','$UserState')";
         $result = mysqli_query($con,$query);
 
         if ($result)
@@ -19,7 +23,7 @@
         }
         else
         {
-          echo "Please check your query";
+          echo "Please check your query no insert";
         }
       }
   }
