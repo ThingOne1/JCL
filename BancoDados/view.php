@@ -13,7 +13,7 @@
      <link rel="stylesheet" href="CSS\bootstrap.css">
      <title>User profile</title>
    </head>
-   <nav class="navbar navbar-dark bg-dark text-white">
+   <nav class="navbar navbar-dark bg-dark text-white px-3">
    <a class="navbar-brand" href="#">
      <img src="IMG\JCL.png" width="30" height="30" class="d-inline-block align-top" alt="">
      JCL
