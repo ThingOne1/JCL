@@ -2,7 +2,7 @@
   require_once("connection.php");
 
   if (isset($_POST['submit'])) {
-    if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['password']))  {
+    if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['password']) || empty($_POST['idade']) || empty($_POST['cidade']) || empty($_POST['estado']) || empty($_POST['idade']) )  {
         echo "Please fill in the blanks";
       }
     else

@@ -13,6 +13,12 @@
      <link rel="stylesheet" href="CSS\bootstrap.css">
      <title>User profile</title>
    </head>
+   <nav class="navbar navbar-dark bg-dark text-white">
+   <a class="navbar-brand" href="#">
+     <img src="IMG\JCL.png" width="30" height="30" class="d-inline-block align-top" alt="">
+     JCL
+   </a>
+   </nav>
    <body class="bg-dark">
      <div class="container">
        <div class="row">
@@ -75,5 +81,12 @@
        </div>
 
      </div>
+     <footer class="bg-dark text-center text-lg-start">
+     <!-- Copyright -->
+     <div class="bottom-container text-white text-center p-3">
+       © 2022 Copyright
+       <a class="text-white" href="https://www.jcl-tecnologia.com.br/" >JCL tecnologias</a>
+     </div>
+   </footer>
    </body>
  </html>
