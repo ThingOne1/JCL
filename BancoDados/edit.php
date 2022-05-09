@@ -33,7 +33,7 @@
                 <div class="col-lg-6 m-auto">
                     <div class="card mt-5">
                         <div class="card-title">
-                            <h3 class="bg-success text-white text-center py-3"> Update Registro</h3>
+                            <h3 class="bg-dark text-white text-center py-3"> Update Registro</h3>
                         </div>
                         <div class="card-body">
 
@@ -44,7 +44,7 @@
                                 <input type="text" class="form-control mb-2" placeholder=" User Idade " name="idade" value="<?php echo $UserDate ?>">
                                 <input type="text" class="form-control mb-2" placeholder=" User Cidade " name="cidade" value="<?php echo $UserCity ?>">
                                 <input type="text" class="form-control mb-2" placeholder=" User Estado " name="estado" value="<?php echo $UserState ?>">
-                                <button class="btn btn-primary" name="update">Update</button>
+                                <button class="bg-dark btn btn-primary" name="update">Update</button>
                             </form>
 
                         </div>
