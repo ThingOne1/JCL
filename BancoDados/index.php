@@ -20,7 +20,7 @@
         <div class="col-lg-6 m-auto">
           <div class="card mt-5">
             <div class="card-title">
-              <h3 class="bg-success text-white text-center py-3">Cartao de registro</h3>
+              <h3 class="bg-dark text-white text-center py-3">Cartao de registro</h3>
             </div>
             <div class="card-body">
                 <form  action="insert.php" method="post">
@@ -30,7 +30,7 @@
                   <input class="form-control mb-2" type="text" name="idade" placeholder="Idade">
                   <input class="form-control mb-2" type="text" name="cidade" placeholder="Cidade">
                   <input class="form-control mb-2" type="text" name="estado" placeholder="Estado">
-                  <button class="btn btn-primary mt-2" name="submit">Enviar</button>
+                  <button class=" bg-dark btn btn-primary mt-2" name="submit">Enviar</button>
               </form>
             </div>
           </div>
