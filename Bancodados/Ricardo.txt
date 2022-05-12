@@ -1,0 +1,4 @@
+PG_Port:5432
+Senha:123456
+Username:postgres
+Apache Port
